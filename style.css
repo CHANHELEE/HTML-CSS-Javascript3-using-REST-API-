@@ -42,6 +42,23 @@
   height : 40px;
 }
 
+.menus button:active {
+  background-color: darkgray;
+
+}
+
+#under-line{
+  height: 4px;
+  background-color: tomato;
+  position: absolute;
+  width:52px ; 
+  left:260px;
+  top:160px;
+  padding: 0px;
+  transition : 0.5s
+}
+
+
 .img{
   width: 250px;
   height: 140px;
@@ -60,6 +77,20 @@
   white-space:nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+
+}
+
+.pages{
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.pages *{
+  color:grey
+}
+.pages .page-link {
+  color: dodgerblue
 }
 
 @media (max-width:992px){
