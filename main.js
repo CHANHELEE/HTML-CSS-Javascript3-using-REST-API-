@@ -28,7 +28,7 @@ const render = () => {  //callApi 에서 호출된다.
             ${news.summary}
           </p>
           <div>
-            출처 : <a  href='${news.link}' target='_blank'>'${news.link}'</a>
+            출처 : <a  href='${news.link}' target='_blank'>해당 기사로 이동하기</a>
           </div>
         </div>
       </div>`})
