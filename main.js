@@ -137,6 +137,7 @@ const getLatestNews = async() =>{
 
 let menuButtonClickEvent=(event) =>{
   horizontalUnderline.style.display='block'; // 버튼 클릭시 언더바 생성
+  menuList[0].style.backgroundColor='wheat';
   category= event.srcElement.innerHTML.toLowerCase()
   getLatestNews();  
 }
