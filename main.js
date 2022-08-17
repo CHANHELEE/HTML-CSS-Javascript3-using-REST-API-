@@ -106,7 +106,7 @@ const callApi= async(url) => {
     if(response.status ==200){
       let data = await response.json();
       news=await data.articles
-      // console.log(data)
+      console.log(data)
       page = data.page
       total_pages = data.total_pages
       if(data.total_hits==0){
